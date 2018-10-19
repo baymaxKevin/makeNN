@@ -1,0 +1,240 @@
+digraph G {
+ 
+    rankdir=LR
+
+    splines=line
+
+    nodesep=.05;
+
+    node [label=""];
+
+    subgraph cluster_0 {
+ 
+    color=white;
+
+    node [style=solid,color=blue];
+
+    
+    node [shape=circle,height=.5];
+
+    a00 a01 a02 a03 a04 ;
+
+    
+    label = "layer input(5)";
+
+    }
+
+    subgraph cluster_1 {
+ 
+    color=white;
+
+    node [style=solid,color=orange];
+
+    
+    node [shape=circle,height=.5];
+
+    a10 a11 a12 a13 a14 a15 a16 a17 ;
+
+    
+    label = "layer h1(8)";
+
+    }
+
+    subgraph cluster_2 {
+ 
+    color=white;
+
+    node [style=solid,color=orange];
+
+    
+    node [shape=circle,height=.5];
+
+    a20 a21 a22 a23 a24 a25 ;
+
+    
+    label = "layer h2(6)";
+
+    }
+
+    subgraph cluster_3 {
+ 
+    color=white;
+
+    node [style=solid,color=orange];
+
+    
+    node [shape=circle,height=.5];
+
+    a30 a31 a32 a33 a34 a35 a36 ;
+
+    
+    label = "layer h3(7)";
+
+    }
+
+    subgraph cluster_4 {
+ 
+    color=white;
+
+    node [style=solid,color=sienna];
+
+    
+    node [shape=circle,height=.5];
+
+    a40 a41 ;
+
+    
+    label = "layer out(2)";
+
+    }
+
+    
+
+    a00 -> a10
+a00 -> a11
+a00 -> a12
+a00 -> a13
+a00 -> a14
+a00 -> a15
+a00 -> a16
+a00 -> a17
+a01 -> a10
+a01 -> a11
+a01 -> a12
+a01 -> a13
+a01 -> a14
+a01 -> a15
+a01 -> a16
+a01 -> a17
+a02 -> a10
+a02 -> a11
+a02 -> a12
+a02 -> a13
+a02 -> a14
+a02 -> a15
+a02 -> a16
+a02 -> a17
+a03 -> a10
+a03 -> a11
+a03 -> a12
+a03 -> a13
+a03 -> a14
+a03 -> a15
+a03 -> a16
+a03 -> a17
+a04 -> a10
+a04 -> a11
+a04 -> a12
+a04 -> a13
+a04 -> a14
+a04 -> a15
+a04 -> a16
+a04 -> a17
+a10 -> a20
+a10 -> a21
+a10 -> a22
+a10 -> a23
+a10 -> a24
+a10 -> a25
+a11 -> a20
+a11 -> a21
+a11 -> a22
+a11 -> a23
+a11 -> a24
+a11 -> a25
+a12 -> a20
+a12 -> a21
+a12 -> a22
+a12 -> a23
+a12 -> a24
+a12 -> a25
+a13 -> a20
+a13 -> a21
+a13 -> a22
+a13 -> a23
+a13 -> a24
+a13 -> a25
+a14 -> a20
+a14 -> a21
+a14 -> a22
+a14 -> a23
+a14 -> a24
+a14 -> a25
+a15 -> a20
+a15 -> a21
+a15 -> a22
+a15 -> a23
+a15 -> a24
+a15 -> a25
+a16 -> a20
+a16 -> a21
+a16 -> a22
+a16 -> a23
+a16 -> a24
+a16 -> a25
+a17 -> a20
+a17 -> a21
+a17 -> a22
+a17 -> a23
+a17 -> a24
+a17 -> a25
+a20 -> a30
+a20 -> a31
+a20 -> a32
+a20 -> a33
+a20 -> a34
+a20 -> a35
+a20 -> a36
+a21 -> a30
+a21 -> a31
+a21 -> a32
+a21 -> a33
+a21 -> a34
+a21 -> a35
+a21 -> a36
+a22 -> a30
+a22 -> a31
+a22 -> a32
+a22 -> a33
+a22 -> a34
+a22 -> a35
+a22 -> a36
+a23 -> a30
+a23 -> a31
+a23 -> a32
+a23 -> a33
+a23 -> a34
+a23 -> a35
+a23 -> a36
+a24 -> a30
+a24 -> a31
+a24 -> a32
+a24 -> a33
+a24 -> a34
+a24 -> a35
+a24 -> a36
+a25 -> a30
+a25 -> a31
+a25 -> a32
+a25 -> a33
+a25 -> a34
+a25 -> a35
+a25 -> a36
+a30 -> a40
+a30 -> a41
+a31 -> a40
+a31 -> a41
+a32 -> a40
+a32 -> a41
+a33 -> a40
+a33 -> a41
+a34 -> a40
+a34 -> a41
+a35 -> a40
+a35 -> a41
+a36 -> a40
+a36 -> a41
+
+
+    } 
+    
